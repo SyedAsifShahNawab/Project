@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            background-color: black;
+            border-radius: 40px;
+
+
+        }
+
+        .nav ul {
+            overflow: auto;
+        }
+
+        .nav li {
+
+            float: left;
+            list-style-type: none;
+            padding: 5px;
+            margin: 10px 25px;
+
+
+        }
+
+        .nav li a:hover {
+            color: aqua;
+
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        body {
+            background-image: url(./images/1.jpg);
+            background-size: contain;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+
+        }
+
+        .search {
+            color: white;
+            float: right;
+            padding: 15px 65px;
+
+        }
+
+        .button:hover {
+            color: aqua;
+        }
+
+        .input {
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Project</a> </li>
+                <li><a href="#">Group Project</a> </li>
+                <li><a href="#">About</a> </li>
+                <div class="search">
+                    <input type="text" class="input" placeholder="Search Here">
+                    <button class="button">Search</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+
+
+    </div>
+</body>
+
+</html>
