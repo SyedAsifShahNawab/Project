@@ -5,66 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .nav {
-            background-color: black;
-            border-radius: 40px;
-
-
-        }
-
-        .nav ul {
-            overflow: auto;
-        }
-
-        .nav li {
-
-            float: left;
-            list-style-type: none;
-            padding: 5px;
-            margin: 10px 25px;
-
-
-        }
-
-        .nav li a:hover {
-            color: aqua;
-
-        }
-
-        .nav li a {
-            text-decoration: none;
-            color: white;
-
-        }
-
-        body {
-            background-image: url(./images/1.jpg);
-            background-size: contain;
-            /* background-color: rgba(0, 0, 0, 0.5); */
-
-        }
-
-        .search {
-            color: white;
-            float: right;
-            padding: 15px 65px;
-
-        }
-
-        .button:hover {
-            color: aqua;
-        }
-
-        .input {
-            border: 2px solid black;
-            border-radius: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+   <div class="main"> <header>
         <nav class="nav">
             <ul>
                 <li><a href="#">Home</a> </li>
@@ -73,14 +18,17 @@
                 <li><a href="#">About</a> </li>
                 <div class="search">
                     <input type="text" class="input" placeholder="Search Here">
-                    <button class="button">Search</button>
+                    <button class="button"><img src="./images/search.png" width="10px" class="img" alt=""></button>
                 </div>
             </ul>
         </nav>
     </header>
-    <div class="main">
-
-
+</div>
+    <div class="leftsidebar">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57880.147303407684!2d66.91415181429359!3d24.948784278611477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36bebe09ec87d%3A0x5a1e926868d2d98b!2zU2hhaCBIb3VzZSDYtNin24Eg24HYp9ik2LM!5e0!3m2!1sen!2s!4v1705004248740!5m2!1sen!2s"
+            width="250" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </body>
 
